@@ -25,7 +25,7 @@ function clickHandler(){
 
 function showTranslation(json){
     var translatedText = json.contents.translated;
-    outputText.value = translatedText;
+    outputText.innerText = translatedText;
 }
 
 btnTranslate.addEventListener('click', clickHandler)
