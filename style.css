@@ -5,29 +5,37 @@
     box-sizing: border-box;
 }
 :root{
-    --primary-color: #F2C94C;
+    --primary-color: #fdd961;
 }
 body{
     text-align: center;
     font-family: 'Merienda', cursive;
 }
 nav{
-    
     background-color: var(--primary-color);
+    height: 10%;
 }
 #header{
-    padding: 2rem;
+    padding: 1.5rem 0 0.6rem;
     font-size: large;
+}
+img{
+    display: block;
+    width: 120px;
+    height: 30px;
+    margin: 0 auto;
 }
 .content{
     background-image: url("images/minion2.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position-x: 30px;
+    height: 60%;
 }
 main{
-    margin: 0 auto;
-    max-width: 300px;
+    margin: 0 10%;
+    max-width: 600px;
+    width: 53vw;
     padding: 2rem 0;
     min-height: 61.3vh;
 }
@@ -36,14 +44,13 @@ textarea{
     box-sizing: border-box;
     display: block;
     width: 100%;
-    height: 15vh;
+    height: 13vh;
     padding: 1rem;
     font-size: large;
     letter-spacing: 2px;
     font-family: inherit;
-    color: #000000;
     background: transparent;
-    border: 1px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
 }
 button{
     display: block;
@@ -61,23 +68,22 @@ button:hover{
 }
 
 #output-text{
-    border: 1px solid #000000;
-    min-height: 16vh;
-    /* max-height: 20vh; */
+    border: 2px solid var(--primary-color);
+    min-height: 13.9vh;
+    max-height: 20vh;
     width: 100%;
     margin: 1.4rem 0;
     overflow: scroll;
     font-family: inherit;
     font-size: large;
     font-family: inherit;
-    color: #000000;
 }
 
 footer{
     position: sticky;
-    height: 100%;
+    height: 30%;
     width: 100%;
-    padding: 1.5rem;
+    padding: 1.5rem 0;
     background-color: var(--primary-color);
 }
 footer p{
