@@ -52,6 +52,11 @@ textarea{
     background: transparent;
     border: 2px solid var(--primary-color);
 }
+@media (max-width: 537px){
+    textarea{
+        font-size: medium;
+    }
+}
 button{
     display: block;
     margin: 2.05rem auto;
